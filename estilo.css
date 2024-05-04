@@ -1,0 +1,410 @@
+body{
+   
+    color: #231f20;
+    line-height: 1.4;
+    font-size: 15px;
+    background-image: url(img/casamento.jpeg);
+    background-position-x: right;
+}
+
+header{
+    width: 15%;
+    height:985px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: -0.5%;
+    text-align: center;
+    color: #040C15;
+    font-family:'Times New Roman', Times, serif;
+    background-color:#B4856B;   
+}
+
+
+.img{
+    position: fixed;
+    top: 3%;
+    left: 3.5%;
+    background-image: url(img/img1.jpg);
+    width: 8%;
+    height: 15%;
+    border-radius: 50%;
+    border: 3px solid #9A5833;
+}
+
+.cabeça{
+    text-align: center;
+    margin-top: 80%;
+}
+
+a{
+    color: #040C15;
+    text-align: left;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative; 
+
+}
+
+.menu a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 2px;
+    background-color: #9A5833; 
+    transition: width 0.3s ease;
+}
+
+.menu a:hover::before {
+    width: 100%; 
+}
+
+.menu a.pagatual::before{
+    width: 100%;
+}
+
+h2{
+    font-weight: unset;  
+    font-size: 25px;
+    left: 60%;
+    color: #E3EEF9;
+    margin-left: -10%;
+}
+
+.icones{
+    position: fixed;
+    text-align: left;
+    left: 1%;
+    line-height: 4;
+    margin-top: 5.7%;   
+}
+
+
+.menu{
+    position: fixed;
+    text-align: left;
+    left: 3%;
+    line-height: 2.9;
+    margin-top: 5%;
+}
+
+
+
+.subs{
+    left: 55%;
+    position: fixed;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.sociais{
+    margin-top: -10%;
+
+}
+
+.info{
+    background-color: #C9BBB1;
+    border: 2px solid #B4856B;
+    width: 1200px;
+    height: 800px;
+    padding: 10px;
+    border-radius: 20%;
+    margin: 0;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 5%;
+    opacity: 1;
+}
+
+.corpo h2{
+    text-decoration: underline;
+    position: fixed;
+    left: 40%; 
+    font-size: 45px;
+    max-width: 1000px;
+    top: 15%;
+    color: #040C15;
+}
+
+.corpo img{
+    width: 9%;
+    position: fixed;
+    top: 29%;
+    left: 30%;
+    border-radius: 3%;
+}
+
+.pessoal{
+   font-size: 22px;
+   color: #040C15;
+   position: fixed;
+   top: 27%;
+   left: 30%;
+}
+
+.habil h2{
+    position: fixed;
+    top: 55%;
+    left: 40%; 
+    font-size: 45px;
+    max-width: 1000px;
+    color:#040C15;
+    text-decoration: underline;
+}
+
+
+.habilidade{
+    position: fixed;
+    top: 68%;
+    left: 30%; 
+    font-size: 20px;
+    max-width: 1000px;
+    color:#040C15;
+}
+
+.linha{
+    position: absolute;
+    border-left: 2px solid;
+    height: 650px;
+    color:  #040C15;
+    left: 38%;
+    top: 10%;
+}
+
+.sobreMim h2{
+    text-decoration: underline;
+    position: fixed;
+    left: 65%; 
+    font-size: 45px;
+    max-width: 1000px;
+    top: 15%;
+    color:  #040C15;
+}
+
+.sobreMim p{
+    max-width: 600px;
+    left: 55%;
+    font-size: 22px;
+    color: #040C15;
+    position: fixed;
+    top: 28%;
+    letter-spacing: 1px;
+}
+
+.ti{
+    width: 370px;
+    height: 400px;
+    position: fixed;
+    top: 30%;
+    border-radius: 20px;
+    transition: .2s;
+    left: 27%;
+}
+
+.ti:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 20px #B4856B;
+}
+
+.ti img{
+    width: 150px;
+    position: relative;
+    top: 20%;
+   align-items: center;
+}
+
+.ti p{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    /* left: 23%;   */
+    font-size: 27px;
+    max-width: 1000px;
+}
+.ti h2{
+    text-decoration: none;
+    color: #231F20;
+    position: relative;
+    top: 20%;
+    left: 10%;  
+    font-size: 27px;
+    max-width: 1000px;
+}
+
+.meca{
+    width: 370px;
+    height: 400px;
+    position: fixed;
+    top: 30%;
+    border-radius: 20px;
+    transition: .2s;
+    left: 47.8%;
+}
+
+.meca:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 20px #B4856B;
+}
+
+.meca img{
+    width: 150px;
+    position: relative;
+    top: 20%;
+    align-items: center;
+}
+
+.meca p{
+    position: relative;
+    top: 20%;  
+    left: 27%;
+    font-size: 27px;
+}
+
+.meca h2{
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    left: 10%;  
+    font-size: 27px;
+    max-width: 1000px;
+    color: #231F20;
+}
+
+.soft{
+    width: 370px;
+    height: 400px;
+    position: fixed;
+    top: 30%;
+    border-radius: 20px;
+    transition: .2s;
+    left: 69%;
+}
+
+.soft:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 20px #B4856B;
+}
+
+.soft img{
+    width: 150px;
+    position: relative;
+    top: 20%;
+    align-items: center;
+}
+
+.soft p{
+    position: relative;
+    top: 20%;  
+   text-align: center;
+    font-size: 27px;
+}
+
+.soft h2{
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    left: 10%;  
+    font-size: 27px;
+    max-width: 1000px;
+    color: #231F20;
+}
+
+.proj1 img{
+    width: 140px;
+    position: fixed;
+    left: 75%;
+    top: 35%;
+}
+
+.proj2 img{
+    width: 140px;
+    position: fixed;
+    left: 53%;
+    top: 35%;
+}
+
+.proj3  img{
+    width: 140px;
+    position: fixed;
+    left:32%;
+    top: 35%;
+}
+
+.proj1 h2{
+    position: fixed;
+    left: 84%;
+    top: 50%;
+    text-decoration: none;
+    color: #231F20;
+}
+
+.proj2 h2{
+    position: fixed;
+    left: 56%;
+    top: 50%;
+    text-decoration: none;
+    color: #231F20;
+}
+
+.proj3 h2{
+    position: fixed;
+    left: 41%;
+    top: 50%;
+    text-decoration: none;
+    color: #231F20;
+}
+
+#ihtml img{
+    width: 15%;
+    height: 0.5%;
+    position: fixed;
+    left: 34%;
+    top: 72%;
+}
+
+#ihtml p{
+    position: fixed;
+    left: 40%;
+    top: 66.5%;
+    font-size: 23px;
+}
+
+#ihtml, #icss, #ijs{
+    display: none;
+    position: absolute;
+}
+
+#icss img{
+    width: 15%;
+    position: fixed;
+    left: 34%;
+    height: .45%;
+    top: 77%;
+}
+
+#icss p{
+    position: fixed;
+    left: 40%;
+    top: 71.5%;
+    font-size: 23px;
+}
+
+#ijs img{
+    width: 13%;
+    position: fixed;
+    left: 36%;
+    height: .45%;
+    top: 82%;
+}
+
+#ijs p{
+    position: fixed;
+    left: 40%;
+    top: 76.5%;
+    font-size: 23px;
+}
+
+
