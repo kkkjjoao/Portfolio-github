@@ -10,7 +10,7 @@ body{
 
 header{
     width: 15%;
-    height:985px;
+    height:1000%;
     position: fixed;
     left: 0;
     top: 0;
@@ -409,6 +409,12 @@ h2{
     font-size: 23px;
 }
 
+.texto-animado {
+    font-size: 28px;
+    text-align: center;
+    margin-top: -10%;
+  }
+
 
 .carrossel {
     position: relative;
@@ -457,3 +463,20 @@ h2{
     right: 0;
 }
 
+.mover p{
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
